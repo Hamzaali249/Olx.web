@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.head{
+    height: 138px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-field{
+    height: 50%;
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.7rem;
+    margin-left: 6rem;
+}
+
+.top-icons img {
+    display: inline-block;
+    vertical-align:middle;
+    height: 30px;
+    
+
+}
+.logo img{
+    height: 36px;
+    
+}
+.input-field{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-bar{
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+    border: 2px solid gray;
+    width: 19rem;
+    height: 46px;
+    
+}
+
+.location{
+    height: 40px;
+    width: 15rem;
+    background: transparent;
+    border: none;
+
+}
+
+.input-bar ::placeholder{
+  font-size: 20px;
+}
+.input-bar .loc-icon{
+    height: 30px;
+    margin:7px 0;
+    display:inline-block;
+    vertical-align: middle;
+}
+
+select{
+    width:1rem;
+    font-size: 18px;
+    
+}
+select .city{
+    text-align:left;
+    font-size: 23px;
+
+}
+
+.search-bar{
+    width:45rem;
+    height: 46px;
+    border: 2px solid gray;
+    margin-bottom: 1rem;
+    
+}
+
+.search-bar input{
+    width: 42.3rem;
+    height: 40px;
+    background: transparent;
+    border: none;
+    
+}
+.search-bar img{
+    vertical-align: middle;
+
+}
+.bar-button{
+    display: flex;
+    gap:2rem;
+    padding-right: 6rem;
+    margin-bottom: 1rem;
+}
+.bar-button button, .bar-button a{
+    font-size: 1.2rem;
+    background: none;
+    border: none;
+    transition: 0.4s;
+    color: black;
+
+}
+.bar-button a:hover{
+  text-decoration: none;
+    
+}
+.bar-button{
+    position: relative;
+
+}
+.bar-button button{
+    position: relative;
+    z-index: 2;
+}
+.bar-button img{
+    position: absolute;
+    right:70px;
+    bottom:-10px;
+    z-index: 1;
+}
+
+.nav-section{
+    padding: 20px;
+    padding-left: 80px;
+    box-shadow: 0 1px 1px #000;
+}
+
+li{
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 0.8em;
+}
+li:hover{
+    cursor: pointer;
+    color: #00a49f;
+}
+
+.slide-img{
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-left: 6.9rem;
+}
+
+.cat-area{
+    padding: 0 90px;
+    margin-top: 10px;
+}
+
+.cat-card{
+    max-width: 100px;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    margin:20px 20px;
+    padding-right: 10px;
+    margin-left: 0;
+    justify-content: space-evenly;
+}
+
+.cat-area p{
+    font-size: 10px;
+}
+
+.cat-card > img{
+    width: 70px;
+}
+.ad-card{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    gap:3em;
+    padding-top: 2em;
+    flex-wrap: wrap;
+}
+.cards-container{
+    height: 250px;
+    width: 250px;   
+}
+.card-img{
+    height: 70%;
+    width: 100%;
+    background-image: url(./assets/card2.pic);
+    background-position: center;
+    background-size: cover;
+}
+.cards-container .p{
+    height: 40%;
+    border: 2px solid grey;
+    box-shadow: 2px 2px 2px 2px gainsboro inset;
+}
+
+.cardimg-2{
+    background-image: url(./assets/card5.pic);
+}
+
+.cardimg-3{
+    background-image: url(./assets/card6.pic);
+}
+
+.cardimg-4{
+    background-image: url(./assets/card3.pic);
+}
+
+
+.heart-icon{
+    float: right;
+    
+}
+
+.pricing{
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+.ad-last{
+    height: 30vh;
+    background-image: url(./assets/lastcard.1.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 40px;
+    margin-top: 4rem;
+}
+
+.last-p{
+    margin-left: 35rem;
+}
+
+.last-p h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.last-p p{
+    font-size: 20px;
+}
+
+
+.lastnavbar-last .last-ul{
+    height: 40vh;
+    max-width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.last-ul {
+    padding-top: 4rem;
+   
+}
+
+.last-ul span{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.last-ul i{
+    font-size: 25px;
+    padding: 1rem;
+}
+
+
+
+
+.last-ul li{
+    display: block;
+
+}
